@@ -1,41 +1,28 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Norton Path [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/norton-path/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/norton-path)
 
-My awesome module.
+Gets the current path of the Norton CLI binary.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/norton-path.png)](https://npmjs.com/package/norton-path)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install norton-path
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const nortonPath = require("norton-path");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+nortonPath;
+//=> 'C:\\Program Files\\Norton Security\\Engine\\22.19.9.63\\Navw32.exe'
 ```
 
 ## API
 
-### theModule(input, options?)
-
-#### input
+### nortonPath
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The current path of the Norton CLI binary.

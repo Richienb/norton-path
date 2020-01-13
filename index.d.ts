@@ -1,14 +1,13 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * The current path of the Norton CLI binary.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const nortonPath = require("norton-path");
+ *
+ * nortonPath;
+ * //=> 'C:\\Program Files\\Norton Security\\Engine\\22.19.9.63\\Navw32.exe'
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare const nortonPath: string | null
 
-export = theModule;
+export = nortonPath
