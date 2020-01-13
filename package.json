@@ -1,6 +1,6 @@
 {
 	"name": "norton-path",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Gets the current path of the Norton CLI binary.",
 	"repository": "https://github.com/Richienb/norton-path.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
